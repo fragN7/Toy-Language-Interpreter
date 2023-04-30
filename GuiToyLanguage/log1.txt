@@ -1,0 +1,938 @@
+ID:1
+Execution stack: 
+(Ref(int) a;(New(a, 20);(int v;(for(v=0; v<3; v=v + 1) {Fork((print(v);v=v * ReadHeap(a)))};print(ReadHeap(a))))))
+Symbol table: 
+Output list: 
+FileTable: 
+Heap:
+Lock Table:
+
+ID:1
+Execution stack: 
+Ref(int) a
+(New(a, 20);(int v;(for(v=0; v<3; v=v + 1) {Fork((print(v);v=v * ReadHeap(a)))};print(ReadHeap(a)))))
+Symbol table: 
+Output list: 
+FileTable: 
+Heap:
+Lock Table:
+
+ID:1
+Execution stack: 
+Ref(int) a
+(New(a, 20);(int v;(for(v=0; v<3; v=v + 1) {Fork((print(v);v=v * ReadHeap(a)))};print(ReadHeap(a)))))
+Symbol table: 
+Output list: 
+FileTable: 
+Heap:
+Lock Table:
+
+ID:1
+Execution stack: 
+(New(a, 20);(int v;(for(v=0; v<3; v=v + 1) {Fork((print(v);v=v * ReadHeap(a)))};print(ReadHeap(a)))))
+Symbol table: 
+a -> (0,int)
+Output list: 
+FileTable: 
+Heap:
+Lock Table:
+
+ID:1
+Execution stack: 
+(New(a, 20);(int v;(for(v=0; v<3; v=v + 1) {Fork((print(v);v=v * ReadHeap(a)))};print(ReadHeap(a)))))
+Symbol table: 
+a -> (0,int)
+Output list: 
+FileTable: 
+Heap:
+Lock Table:
+
+ID:1
+Execution stack: 
+New(a, 20)
+(int v;(for(v=0; v<3; v=v + 1) {Fork((print(v);v=v * ReadHeap(a)))};print(ReadHeap(a))))
+Symbol table: 
+a -> (0,int)
+Output list: 
+FileTable: 
+Heap:
+Lock Table:
+
+ID:1
+Execution stack: 
+New(a, 20)
+(int v;(for(v=0; v<3; v=v + 1) {Fork((print(v);v=v * ReadHeap(a)))};print(ReadHeap(a))))
+Symbol table: 
+a -> (0,int)
+Output list: 
+FileTable: 
+Heap:
+Lock Table:
+
+ID:1
+Execution stack: 
+(int v;(for(v=0; v<3; v=v + 1) {Fork((print(v);v=v * ReadHeap(a)))};print(ReadHeap(a))))
+Symbol table: 
+a -> (1,int)
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+(int v;(for(v=0; v<3; v=v + 1) {Fork((print(v);v=v * ReadHeap(a)))};print(ReadHeap(a))))
+Symbol table: 
+a -> (1,int)
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+int v
+(for(v=0; v<3; v=v + 1) {Fork((print(v);v=v * ReadHeap(a)))};print(ReadHeap(a)))
+Symbol table: 
+a -> (1,int)
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+int v
+(for(v=0; v<3; v=v + 1) {Fork((print(v);v=v * ReadHeap(a)))};print(ReadHeap(a)))
+Symbol table: 
+a -> (1,int)
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+(for(v=0; v<3; v=v + 1) {Fork((print(v);v=v * ReadHeap(a)))};print(ReadHeap(a)))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+(for(v=0; v<3; v=v + 1) {Fork((print(v);v=v * ReadHeap(a)))};print(ReadHeap(a)))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+for(v=0; v<3; v=v + 1) {Fork((print(v);v=v * ReadHeap(a)))}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+for(v=0; v<3; v=v + 1) {Fork((print(v);v=v * ReadHeap(a)))}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+(v=0;while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)})
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+(v=0;while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)})
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+v=0
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+v=0
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+Fork((print(v);v=v * ReadHeap(a)))
+v=v + 1
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+Fork((print(v);v=v * ReadHeap(a)))
+v=v + 1
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+v=v + 1
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:2
+Execution stack: 
+(print(v);v=v * ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+v=v + 1
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:2
+Execution stack: 
+(print(v);v=v * ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 1
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:2
+Execution stack: 
+print(v)
+v=v * ReadHeap(a)
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 1
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:2
+Execution stack: 
+print(v)
+v=v * ReadHeap(a)
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 1
+Output list: 
+0
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:2
+Execution stack: 
+v=v * ReadHeap(a)
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+0
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 1
+Output list: 
+0
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:2
+Execution stack: 
+v=v * ReadHeap(a)
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+0
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+Fork((print(v);v=v * ReadHeap(a)))
+v=v + 1
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 1
+Output list: 
+0
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:2
+Execution stack: 
+Symbol table: 
+a -> (1,int)
+v -> 0
+Output list: 
+0
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+Fork((print(v);v=v * ReadHeap(a)))
+v=v + 1
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 1
+Output list: 
+0
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+v=v + 1
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 1
+Output list: 
+0
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:3
+Execution stack: 
+(print(v);v=v * ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 1
+Output list: 
+0
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+v=v + 1
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 1
+Output list: 
+0
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:3
+Execution stack: 
+(print(v);v=v * ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 1
+Output list: 
+0
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 2
+Output list: 
+0
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:3
+Execution stack: 
+print(v)
+v=v * ReadHeap(a)
+Symbol table: 
+a -> (1,int)
+v -> 1
+Output list: 
+0
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 2
+Output list: 
+0
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:3
+Execution stack: 
+print(v)
+v=v * ReadHeap(a)
+Symbol table: 
+a -> (1,int)
+v -> 1
+Output list: 
+0
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 2
+Output list: 
+0
+1
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:3
+Execution stack: 
+v=v * ReadHeap(a)
+Symbol table: 
+a -> (1,int)
+v -> 1
+Output list: 
+0
+1
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 2
+Output list: 
+0
+1
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:3
+Execution stack: 
+v=v * ReadHeap(a)
+Symbol table: 
+a -> (1,int)
+v -> 1
+Output list: 
+0
+1
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+Fork((print(v);v=v * ReadHeap(a)))
+v=v + 1
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 2
+Output list: 
+0
+1
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:3
+Execution stack: 
+Symbol table: 
+a -> (1,int)
+v -> 20
+Output list: 
+0
+1
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+Fork((print(v);v=v * ReadHeap(a)))
+v=v + 1
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 2
+Output list: 
+0
+1
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+v=v + 1
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 2
+Output list: 
+0
+1
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:4
+Execution stack: 
+(print(v);v=v * ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 2
+Output list: 
+0
+1
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+v=v + 1
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 2
+Output list: 
+0
+1
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:4
+Execution stack: 
+(print(v);v=v * ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 2
+Output list: 
+0
+1
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 3
+Output list: 
+0
+1
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:4
+Execution stack: 
+print(v)
+v=v * ReadHeap(a)
+Symbol table: 
+a -> (1,int)
+v -> 2
+Output list: 
+0
+1
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+while(v < 3){(Fork((print(v);v=v * ReadHeap(a)));v=v + 1)}
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 3
+Output list: 
+0
+1
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:4
+Execution stack: 
+print(v)
+v=v * ReadHeap(a)
+Symbol table: 
+a -> (1,int)
+v -> 2
+Output list: 
+0
+1
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 3
+Output list: 
+0
+1
+2
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:4
+Execution stack: 
+v=v * ReadHeap(a)
+Symbol table: 
+a -> (1,int)
+v -> 2
+Output list: 
+0
+1
+2
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+print(ReadHeap(a))
+Symbol table: 
+a -> (1,int)
+v -> 3
+Output list: 
+0
+1
+2
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:4
+Execution stack: 
+v=v * ReadHeap(a)
+Symbol table: 
+a -> (1,int)
+v -> 2
+Output list: 
+0
+1
+2
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:1
+Execution stack: 
+Symbol table: 
+a -> (1,int)
+v -> 3
+Output list: 
+0
+1
+2
+20
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
+ID:4
+Execution stack: 
+Symbol table: 
+a -> (1,int)
+v -> 40
+Output list: 
+0
+1
+2
+20
+FileTable: 
+Heap:1 -> 20
+
+Lock Table:
+
